@@ -1,0 +1,131 @@
+/* Add CSS here */
+.body-container {
+    background-color: #27264b;
+    font-family: 'poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.container {
+    max-width: 600px;
+    height: 400px;
+    background-color: #f8fafe;
+    border-radius: 0.3em;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.closet {
+    background-color: white;
+    box-shadow: 0 5px 5px rgb(212, 208, 208);
+    height: 340px;
+    width: 30%;
+    padding: 5px;
+}
+
+.closet button {
+    width: 100%;
+    height: 30px;
+    font-size: 10px;
+    background-color: blueviolet;
+    color: white;
+}
+
+.numeral {
+    display: flex;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.numeral h1 {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.numeral h2 {
+    font-size: 8px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.numeral h3 {
+    font-size: 8px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.closet h4 {
+    font-size: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -30px;
+}
+
+.closet h5 {
+    font-size: 10px;
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.auction {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.btn {
+    width: 90%;
+    height: 30px;
+    border-width: 2px;
+    border-color: gray;
+    color: white;
+    background-color: #0d193a;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contents {
+    display: flex;
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    font-size: 10px;
+    padding-top: 20px;
+    gap: 9px;
+}
+
+.icons h6 {
+    margin-left: 20px;
+    margin-top: -17px;
+    line-height: 15px;
+}
+
+.closet:hover {
+    box-shadow: -3px 0px 10px 5px rgba(199, 187, 187, 1);
+    -webkit-box-shadow: -3px 0px 10px 5px rgba(199, 187, 187, 1);
+    -moz-box-shadow: -3px 0px 10px 5px rgba(199, 187, 187, 1);
+}
+
+.btn:hover {
+    box-shadow: -3px 0px 10px -200px rgba(199, 187, 187, 1);
+    -webkit-box-shadow: -3px 0px 10px -200px rgba(199, 187, 187, 1);
+    -moz-box-shadow: -3px 0px 10px -200px rgba(199, 187, 187, 1);
+    padding: 15px;
+    background: #27264b;
+}
